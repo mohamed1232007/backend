@@ -1,0 +1,14 @@
+# Environment variables (DB password, JWT secret, ...)
+.env
+
+# Dependencies
+node_modules
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
