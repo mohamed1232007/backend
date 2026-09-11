@@ -78,6 +78,7 @@ app.post("/api/admin/upload-image", verifyToken, requireAdmin, (req, res) => {
 app.use("/api/auth", authRoutes);
 app.use("/auth", authRoutes);
 app.use("/api/admin", adminRoutes);
+app.use("/admin", adminRoutes);
 app.use("/api/store", storeRoutes);
 app.use("/store", storeRoutes);
 
